@@ -6,5 +6,5 @@ setup(
     name='scraper-olx',
     version='0.1.0',
     packages=find_packages(include=['scraper', 'scraper.*']),
-
+    install_requires=['pandas','requests', 'datetime', 'IPython', 'BeautifulSoup'],
 )
