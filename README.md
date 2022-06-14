@@ -1,8 +1,21 @@
-# Criando um package
+# Olx scraper
 
+## Overview
+This is a simple scraper build for a small project.
 
-## Estrutura
-package-escraper/
-|-- scraper.py <- contém o código completo da package
-|-- __init__.py <- marca este diretório como uma package
-|-- README.md
+## Run this to install the package locally
+```python
+pip install -e .
+```
+
+## Structure
+
+```
+├── data
+├── scraper 
+│   ├── __init__.py
+│   └── scraper_olx.py
+├── get_data.py
+├── README.md
+└── setup.py
+```
